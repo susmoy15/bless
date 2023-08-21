@@ -5,48 +5,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Summer Sale</title>
-    <!-- Font Link -->
-   
+     
     <link
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
-    <!-- DaisyUI and TailwindCSS CDN -->
+     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind CSs Custom CSS -->
+     
      
 </head>
 
 <body>
-    <!-- Header Section -->
+     
     <header>
-        <!-- Banner Section -->
+         
         <section class="bg-yellow">
-            <!-- Banner Container -->
+             
             <div
                 class="w-10/12 font-work flex flex-col-reverse lg:flex-row md:flex-row justify-center items-center mx-auto py-10 gap-4">
-                <!-- Banner Left -->
+                 
                 <div class="text-[#111111] w-full lg:w-1/2 md:w-1/2">
                     <h4 class="text-black text-xl text-center font-medium mb-8">
                         ---SALE FEVER---
                     </h4>
                     <h1 class="text-4xl font-bold text-center">
                         Purchase TK 200 or <br> above & get
-                        <span class="text-pink">20% off</span>
+                        <span class="text-pink-600">20% off</span>
                     </h1>
                     <div class="text-center mt-8 space-x-2">
                         <span class="font-medium font-black">Use Promo Code</span>
                         <span id="cupon-code" class="text-white bg-[#E527B2] px-4 py-2 rounded-md font-bold"><button>SELL200</button></span>
                     </div>
                 </div>
-                <!-- Banner Right -->
+                
                 <div class="w-1/2">
                     <img src="images/Summer 1.png" alt="" />
                 </div>
             </div>
         </section>
     </header>
-    <!-- Main Section -->
+     
     <main class="bg-gray">
         <div class="w-11/12 pt-20 gap-4 mx-auto flex flex-col lg:flex-row">
             <!-- Products -->
@@ -207,6 +206,7 @@
                                 <img src="./images/prod7.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center p-4">
+                                <!-- rating -->
                                 <div class="rating rating-sm">
                                     <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#FFC107]" />
                                     <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#FFC107]" checked />
@@ -275,7 +275,7 @@
                             class="px-4 py-1 w-full border-gray3 border outline-none rounded-l-md"
                             placeholder="Coupon code" />
                         <button id="cupon-btn" disabled
-                            class="btn hover:bg-[#9F0D7F] disabled:bg-gray3 rounded-l-none bg-[#E527B2] py-3 px-4 text-white font-bold text-base rounded-r-md">
+                            class="btn hover:bg-[#9F0D7F] disabled:bg-gray3 rounded-l-none bg-pink py-3 px-4 text-white font-bold text-base rounded-r-md">
                             Apply
                         </button>
                     </div>
